@@ -1,0 +1,26 @@
+.errors {
+    border: 1px solid darkred;
+    background-color: lightcoral;
+    padding: 0.5em;
+}
+
+form input {
+    margin: 0.5em 0;
+    font-size: 1.4em;
+    background-color: antiquewhite;
+    width: 300px;
+}
+
+form button {
+    font-size: 1.2em;
+    padding: 0.4em;
+    background-color: cornflowerblue;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+.hidden {
+    display: none;
+}
